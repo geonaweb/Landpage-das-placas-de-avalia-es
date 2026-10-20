@@ -106,13 +106,12 @@ function Index() {
       <main id="topo">
         {/* Hero */}
         <section className="relative overflow-hidden px-5 pb-20 pt-12 md:pt-20">
-          <div className="absolute -right-32 top-10 h-96 w-96 rounded-full bg-accent/30 blur-3xl" aria-hidden />
-          <div className="relative mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
+                    <div className="relative mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2 md:gap-20">
             <div className="fade-up">
               <span className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-sm font-semibold text-primary">
                 <QrCode className="h-4 w-4" aria-hidden /> QR Code + <Nfc className="h-4 w-4" aria-hidden /> NFC
               </span>
-              <h1 className="mt-6 text-4xl font-bold leading-tight md:text-6xl">
+              <h1 className="mt-6 text-4xl font-bold leading-tight md:text-5xl xl:text-[3.5rem]">
                 Facilite as avaliações do seu negócio no <span className="text-primary">Google</span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground">
@@ -133,21 +132,24 @@ function Index() {
                 <WhatsButton>Falar pelo WhatsApp</WhatsButton>
               </div>
             </div>
-            <div className="fade-up relative mx-auto w-full max-w-sm">
-              <div className="absolute -inset-4 rotate-3 rounded-[2rem] bg-primary" aria-hidden />
-              <img
-                src={siteConfig.productImage}
-                alt="Placa de avaliação Google com QR Code e NFC sobre um balcão"
-                className="relative w-full rounded-[1.75rem] object-cover shadow-soft"
-                width={720}
-                height={1280}
-              />
+            <div className="fade-up relative mx-auto w-full max-w-md">
+              <div className="relative rounded-[2rem] bg-panel p-6 shadow-soft md:p-8">
+                <span className="absolute left-8 top-0 h-1 w-16 rounded-full bg-primary" aria-hidden />
+                <span className="absolute -right-2 -top-2 h-5 w-5 rounded-full bg-accent" aria-hidden />
+                <img
+                  src={siteConfig.productImage}
+                  alt="Placa de avaliação Google com QR Code e NFC sobre um balcão"
+                  className="mx-auto max-h-[70vh] w-auto rounded-2xl object-contain"
+                  width={720}
+                  height={1280}
+                />
+              </div>
             </div>
           </div>
         </section>
 
         {/* Praticidade */}
-        <Section id="produto" className="bg-secondary">
+        <Section id="produto" className="bg-panel">
           <Heading
             title="Pequenos detalhes que facilitam a experiência do cliente"
             sub="Nem sempre o cliente sabe onde encontrar o perfil do estabelecimento para deixar uma avaliação. Com a placa, você oferece um caminho mais simples e acessível para quem deseja compartilhar sua experiência."
@@ -190,7 +192,7 @@ function Index() {
         </Section>
 
         {/* Vídeo */}
-        <Section id="demonstracao" className="bg-secondary">
+        <Section id="demonstracao" className="bg-panel">
           <Heading title="Veja a placa funcionando na prática" sub="Confira como o QR Code e o NFC facilitam o acesso à página de avaliações." />
           <div className="mx-auto max-w-4xl">
             <Video />
@@ -225,7 +227,7 @@ function Index() {
         </Section>
 
         {/* Valor */}
-        <Section className="bg-secondary">
+        <Section className="bg-panel">
           <div className="grid items-center gap-10 md:grid-cols-2">
             <div>
               <h2 className="text-3xl font-bold md:text-4xl">Facilite o caminho para quem quer avaliar</h2>
