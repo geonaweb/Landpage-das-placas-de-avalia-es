@@ -111,7 +111,7 @@ function Index() {
               <span className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-sm font-semibold text-primary">
                 <QrCode className="h-4 w-4" aria-hidden /> QR Code + <Nfc className="h-4 w-4" aria-hidden /> NFC
               </span>
-              <h1 className="mt-6 text-4xl font-bold leading-tight md:text-6xl">
+              <h1 className="mt-6 text-4xl font-bold leading-tight md:text-5xl xl:text-[3.5rem]">
                 Facilite as avaliações do seu negócio no <span className="text-primary">Google</span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground">
