@@ -1,7 +1,7 @@
 // ============================================================
 // CONFIGURAÇÕES DA PÁGINA — edite aqui
 // ============================================================
-import placaImg from "@/assets/placa.jpeg"; // troque o arquivo em src/assets para mudar a foto
+import placaImg from "/placa-avaliacao.png"; // troque o arquivo em src/assets para mudar a foto
 
 export const siteConfig = {
   /** Nome comercial (deixe vazio para não exibir) */
