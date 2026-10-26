@@ -135,7 +135,7 @@ function Index() {
             <div className="fade-up relative mx-auto w-full max-w-md">
               <div className="relative rounded-[2rem] bg-panel p-6 shadow-soft md:p-8">
                 <span className="absolute left-8 top-0 h-1 w-16 rounded-full bg-primary" aria-hidden />
-                <span className="absolute right-0 top-0 h-7 w-7 rounded-full bg-accent" aria-hidden />
+                <span className="absolute right-0 top-0 h-8 w-8 rounded-full bg-accent" aria-hidden />
                 <img
                   src={siteConfig.productImage}
                   alt="Placa de avaliação Google com QR Code e NFC sobre um balcão"
