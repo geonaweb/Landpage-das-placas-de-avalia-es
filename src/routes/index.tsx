@@ -258,7 +258,7 @@ function Index() {
         </Section>
 
         {/* CTA */}
-        <section className="relative overflow-hidden bg-[#8FBCFF] px-5 py-24 text-gray-900">
+        <section className="relative overflow-hidden bg-[#0077f3] px-5 py-24 text-gray-900">
           <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full border-[24px] border-accent/30" aria-hidden />
           <div className="absolute -bottom-16 right-10 h-32 w-32 rounded-full bg-accent/20" aria-hidden />
           <div className="relative mx-auto max-w-3xl text-center">
