@@ -10,7 +10,7 @@ export const siteConfig = {
   whatsappNumber: "5571999320431",
   whatsappMessage:
     "Olá! Conheci a placa de avaliação do Google com QR Code e NFC pela sua página e gostaria de saber mais informações.",
-productImage: "/placaavaliação.png",,
+productImage: "/placaavaliação.png",
   /** Vídeo: caminho MP4 (ex.: "/videos/demo.mp4" em /public) */
   videoMp4: "",
   /** Ou URL de incorporação (ex.: "https://www.youtube.com/embed/ID") */
