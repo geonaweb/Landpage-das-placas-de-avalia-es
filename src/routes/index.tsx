@@ -269,7 +269,7 @@ function Index() {
         </section>
       </main>
 
-      <footer className="px-5 pb-24 pt-8 text-center text-sm text-muted-foreground">
+      <footer className="px-5 pb-4 pt-4 text-center text-sm text-muted-foreground">
         <p className="flex items-center justify-center gap-2"><Store className="h-4 w-4" aria-hidden /> Produto independente, sem vínculo oficial com o Google.
 
 Desenvolvido por Brenda Santos
