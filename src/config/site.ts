@@ -7,7 +7,7 @@ export const siteConfig = {
   /** Nome comercial (deixe vazio para não exibir) */
   brandName: "",
   /** WhatsApp no formato 55 + DDD + número, sem espaços ou símbolos */
-  whatsappNumber: "557199932-0431",
+  whatsappNumber: "5571999320431",
   whatsappMessage:
     "Olá! Conheci a placa de avaliação do Google com QR Code e NFC pela sua página e gostaria de saber mais informações.",
   productImage: placaImg,
