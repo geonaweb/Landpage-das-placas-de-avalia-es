@@ -274,7 +274,8 @@ function Index() {
 
 Desenvolvido por Brenda Santos
 
-© 2026 · Todos os direitos reservados.</p>
+© 2026 · 
+Todos os direitos reservados.</p>
       </footer>
 
       <a
