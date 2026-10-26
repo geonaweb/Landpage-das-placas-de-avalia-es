@@ -259,7 +259,7 @@ function Index() {
 
         {/* CTA */}
         <section className="relative overflow-hidden bg-[#0077f3] px-5 py-24 text-gray-900">
-          <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full border-[24px] border-accent/30" aria-hidden />
+          <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full border-[24px] border-[#0077FF]/40" aria-hidden />
           <div className="absolute -bottom-16 right-10 h-32 w-32 rounded-full bg-accent/20" aria-hidden />
           <div className="relative mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold md:text-5xl">Deixe mais fácil para seus clientes encontrarem suas avaliações</h2>
