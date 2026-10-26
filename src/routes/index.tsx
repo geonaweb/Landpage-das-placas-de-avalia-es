@@ -259,8 +259,14 @@ function Index() {
 
         {/* CTA */}
         <section className="relative overflow-hidden bg-[#0077f3] px-5 py-24 text-gray-900">
-          <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full border-[24px] border-[fcd53e]/40" aria-hidden />
-          <div className="absolute -bottom-16 right-10 h-32 w-32 rounded-full bg-[#fcd53e]/20" aria-hidden />
+          <div
+  className="absolute -left-20 -top-20 h-64 w-64 rounded-full border-[24px] border-[#fcd53e]/40"
+  aria-hidden
+/>
+<div
+  className="absolute -bottom-16 right-10 h-32 w-32 rounded-full bg-[#fcd53e]/20"
+  aria-hidden
+/>
           <div className="relative mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold md:text-5xl">Deixe mais fácil para seus clientes encontrarem suas avaliações</h2>
             <p className="mt-6 text-lg opacity-80">Conheça a placa com QR Code e NFC e descubra como ela pode se encaixar na rotina do seu estabelecimento.</p>
