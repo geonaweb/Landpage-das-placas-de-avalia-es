@@ -278,10 +278,14 @@ function Index() {
       <footer className="px-5 pb-14 pt-8 text-center text-sm text-muted-foreground">
         <p className="flex items-center justify-center gap-2"><Store className="h-3 w-3" aria-hidden />
           <div className="space-y-2 text-center">
-  <p>Produto independente, sem vínculo oficial com o Google.</p>
-  <p>Desenvolvido por Brenda Santos © 2026 · Todos os direitos reservados.</p>
-</div>
-      </footer>
+  <Store className="h-3 w-3" aria-hidden />
+      Produto independente, sem vínculo oficial com o Google.
+    </p>
+    <p>
+      Desenvolvido por Brenda Santos © 2026 · Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
 
       <a
         href={whatsappLink()}
