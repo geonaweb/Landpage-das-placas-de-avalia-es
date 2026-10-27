@@ -284,7 +284,11 @@ function Index() {
     </p>
 
     <p>
-      Desenvolvido por Brenda Santos © 2026 · Todos os direitos reservados.
+      Desenvolvido por Brenda Santos
+    </p>
+
+    <p>
+      © 2026 · Todos os direitos reservados.
     </p>
   </div>
 </footer>
